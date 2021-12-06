@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 const api = {
-  key: "7d4ef5d23648c7c62acd3ccfa1a0a30b",
+  key: "47f91deadcc03ee1284e76d8d250a710",
   base: "https://api.openweathermap.org/data/2.5/"
 }
 
@@ -57,10 +57,23 @@ function App() {
             </div>
             <div className="weather">{weather.weather[0].main}</div>
           </div>
+          <div>
+      <footer>
+    
+
+        <a href="https://github.com/jwiergowska/my-weather-app-project">
+
+          Open-Sourced Code
+        </a>{" "}
+        | Julia Wiergowska
+      </footer>
+    </div>
         </div>
         ) : ('')}
       </main>
     </div>
+    
+    
   );
 }
 
